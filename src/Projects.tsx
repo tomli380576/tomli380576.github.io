@@ -2,6 +2,9 @@ import type { JSX } from "solid-js/jsx-runtime";
 import { Stack, Typography } from "@suid/material";
 import { BoxUnderTitle, Button } from "./components/common";
 import Card from "./components/card";
+import schedgoUrl from "./static/schedgo.jpg";
+import yabobUrl from "./static/yabob.svg";
+import golfGuruUrl from "./static/golfguru.jpg";
 
 export default function Projects(): JSX.Element {
   return (
@@ -11,7 +14,7 @@ export default function Projects(): JSX.Element {
       <Stack direction={"row"} spacing={2}>
         <Card
           title="SchedGo"
-          coverImgUrl="assets/schedgo.jpg"
+          coverImgUrl={schedgoUrl}
           timestamp={"August 2020 ~ March 2022"}
           externalLinkButton={
             <Button
@@ -29,7 +32,7 @@ export default function Projects(): JSX.Element {
 
         <Card
           title="Golf Guru"
-          coverImgUrl="assets/golfguru.jpg"
+          coverImgUrl={golfGuruUrl}
           timestamp={"January 2022 ~ June 2022"}
           externalLinkButton={
             <Button
@@ -47,7 +50,7 @@ export default function Projects(): JSX.Element {
         <Card
           title="Y.A.B.O.B"
           subtitle="Yet Another Better Office-hour Bot"
-          coverImgUrl="assets/yabob.svg"
+          coverImgUrl={yabobUrl}
           timestamp={"August 2022 ~ Current"}
           externalLinkButton={
             <Button

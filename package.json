@@ -6,7 +6,7 @@
     "build": "vite build",
     "start": "vite",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@suid/icons-material": "*",
