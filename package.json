@@ -20,5 +20,6 @@
     "typescript": "^4.8.2",
     "vite": "*",
     "vite-plugin-solid": "*"
-  }
+  },
+  "homepage": "https://tomli380576.github.io/"
 }
