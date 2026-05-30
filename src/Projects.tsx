@@ -8,10 +8,10 @@ import golfGuruUrl from "./static/golfguru.jpg";
 
 export default function Projects(): JSX.Element {
   return (
-    <Stack direction={"column"} spacing={3}>
+    <Stack direction={"column"} spacing={2} width={"100%"}>
       <Typography variant="h1">Projects</Typography>
       <BoxUnderTitle />
-      <Stack direction={"row"} spacing={2}>
+      <Stack direction={"row"} spacing={2} flexWrap="wrap">
         <Card
           title="SchedGo"
           coverImgUrl={schedgoUrl}
